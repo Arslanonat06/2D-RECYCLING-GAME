@@ -66,17 +66,17 @@ public class Item : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Box1"))
         {
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
             GameManager.instance.AddSkor(value);
         }
         else
         {
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
 
         if (collision.gameObject.CompareTag("Box2"))
         {
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
             GameManager.instance.AddSkor(value);
         }
         else
