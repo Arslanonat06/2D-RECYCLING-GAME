@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text Skor;
     public int currentSkor = 0;
     public float spawnRate;
-    public List<GameObject> itemPrefab=new List<GameObject>();
+    public List<GameObject> itemPrefab = new List<GameObject>();
 
     void Awake()
     {
@@ -29,10 +29,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.touchCount == 1)
-        {
-            StartRespawnItem();
-        }
+        
     }
 
     public void AddSkor(int v)
@@ -43,18 +40,13 @@ public class GameManager : MonoBehaviour
 
     public void SpawnItem()
     {
-        int random=Random.RandomRange(0,itemPrefab.Count);
+        int random = Random.Range(0,itemPrefab.Count);
         GameObject itemObj = Instantiate(itemPrefab[random]);
 
         Vector3 spawnpos = transform.position;
         spawnpos.z = 0f;
 
         itemObj.transform.position = spawnpos;
-    }
-
-    private void StartRespawnItem() 
-    {
-        InvokeRepeating("itemSpawn", 0.5f, spawnRate);
     }
 
 }

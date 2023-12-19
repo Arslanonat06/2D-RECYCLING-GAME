@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2389921084537147194}
   m_Layer: 0
   m_Name: recycle_items_1
-  m_TagString: Item2
+  m_TagString: Box1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,6 +103,7 @@ MonoBehaviour:
   maxX: 2.5
   move_Speed: 1.38
   value: 0
+  box: Box
 --- !u!50 &3756388934723792373
 Rigidbody2D:
   serializedVersion: 4

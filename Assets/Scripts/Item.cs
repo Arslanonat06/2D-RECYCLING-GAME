@@ -12,6 +12,7 @@ public class Item : MonoBehaviour
     public float move_Speed;
     private bool canMove;
     public int value;
+    public static GameManager GameManager;
 
     // Start is called before the first frame update
     void Start()
@@ -64,56 +65,11 @@ public class Item : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Box1"))
+        if(collision.transform.tag == transform.tag)
         {
             Destroy(gameObject);
-            GameManager.instance.AddSkor(value);
+            GameManager.instance.SpawnItem();
         }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-        if (collision.gameObject.CompareTag("Box2"))
-        {
-            Destroy(gameObject);
-            GameManager.instance.AddSkor(value);
-        }
-        else
-        {
-            Destroy(collision.gameObject);
-        }
-
-        if (collision.gameObject.CompareTag("Box3"))
-        {
-            Destroy(collision.gameObject);
-            GameManager.instance.AddSkor(value);
-        }
-        else
-        {
-            Destroy(collision.gameObject);
-        }
-
-        if (collision.gameObject.CompareTag("Box4"))
-        {
-            Destroy(collision.gameObject);
-            GameManager.instance.AddSkor(value);
-        }
-        else
-        {
-            Destroy(collision.gameObject);
-        }
-
-        if (collision.gameObject.CompareTag("Box4"))
-        {
-            Destroy(collision.gameObject);
-            GameManager.instance.AddSkor(value);
-        }
-        else
-        {
-            Destroy(collision.gameObject);
-        }
-
     }
 
 }
