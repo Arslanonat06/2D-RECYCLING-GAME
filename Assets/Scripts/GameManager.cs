@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text Skor;
     public int currentSkor = 0;
     public float spawnRate;
-    public GameObject itemPrefab;
+    public List<GameObject> itemPrefab=new List<GameObject>();
 
     void Awake()
     {
@@ -43,7 +43,8 @@ public class GameManager : MonoBehaviour
 
     public void SpawnItem()
     {
-        GameObject itemObj = Instantiate(itemPrefab);
+        int random=Random.RandomRange(0,itemPrefab.Count);
+        GameObject itemObj = Instantiate(itemPrefab[random]);
 
         Vector3 spawnpos = transform.position;
         spawnpos.z = 0f;
