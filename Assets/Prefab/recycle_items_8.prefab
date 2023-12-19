@@ -102,8 +102,6 @@ MonoBehaviour:
   minX: -2.5
   maxX: 2.5
   move_Speed: 1.38
-  value: 0
-  box: 
 --- !u!50 &7287709332173321349
 Rigidbody2D:
   serializedVersion: 4
@@ -138,6 +136,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21261743, y: 0.26878202}
+  m_Offset: {x: -0.21261743, y: -2.0015528}
   serializedVersion: 2
-  m_Radius: 4.3235974
+  m_Radius: 2.5210907

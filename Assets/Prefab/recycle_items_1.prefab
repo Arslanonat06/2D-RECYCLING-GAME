@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1682442328967656962}
   - component: {fileID: 3732879507506709715}
   - component: {fileID: 3756388934723792373}
-  - component: {fileID: 2389921084537147194}
+  - component: {fileID: 7333419327876632188}
   m_Layer: 0
   m_Name: recycle_items_1
   m_TagString: Box1
@@ -102,8 +102,6 @@ MonoBehaviour:
   minX: -2.5
   maxX: 2.5
   move_Speed: 1.38
-  value: 0
-  box: Box
 --- !u!50 &3756388934723792373
 Rigidbody2D:
   serializedVersion: 4
@@ -125,8 +123,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &2389921084537147194
-CapsuleCollider2D:
+--- !u!58 &7333419327876632188
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,6 +136,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0017673615, y: 0.000000037252903}
-  m_Size: {x: 0.13939594, y: 0.42879188}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.15398201}
+  serializedVersion: 2
+  m_Radius: 0.071018

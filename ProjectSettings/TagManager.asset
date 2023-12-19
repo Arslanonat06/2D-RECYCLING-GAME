@@ -10,11 +10,7 @@ TagManager:
   - Box3
   - Box4
   - Box5
-  - Item1
-  - Item2
-  - Item3
-  - Item4
-  - Item5
+  - Kose
   layers:
   - Default
   - TransparentFX

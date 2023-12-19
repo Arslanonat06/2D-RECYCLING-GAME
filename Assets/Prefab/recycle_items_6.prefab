@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7750968370650909754}
   - component: {fileID: 2369852980569699620}
   - component: {fileID: 4105051669373900743}
-  - component: {fileID: 5961293596296045399}
+  - component: {fileID: 1619041747627084332}
   m_Layer: 0
   m_Name: recycle_items_6
   m_TagString: Box2
@@ -102,8 +102,6 @@ MonoBehaviour:
   minX: -2.5
   maxX: 2.5
   move_Speed: 1.38
-  value: 0
-  box: 
 --- !u!50 &4105051669373900743
 Rigidbody2D:
   serializedVersion: 4
@@ -125,8 +123,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &5961293596296045399
-BoxCollider2D:
+--- !u!58 &1619041747627084332
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,16 +136,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.21, y: 0.4}
-    newSize: {x: 0.21, y: 0.4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: -0.097296454}
   serializedVersion: 2
-  m_Size: {x: 0.21, y: 0.4}
-  m_EdgeRadius: 0
+  m_Radius: 0.10270358

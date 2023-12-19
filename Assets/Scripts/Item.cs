@@ -65,9 +65,14 @@ public class Item : MonoBehaviour
         {
             GameManager.instance.AddSkor(1);
 
-        } 
-        Destroy(gameObject);
-        GameManager.instance.SpawnItem();
+        }
+
+        if(collision.transform.tag != "Kose")
+        {
+            Destroy(gameObject);
+            GameManager.instance.SpawnItem();
+        }
+
     }
 
     private void OnCollisionExit2D(Collision2D collision)
