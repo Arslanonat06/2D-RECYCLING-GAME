@@ -11,7 +11,6 @@ public class Item : MonoBehaviour
     public float maxX;
     public float move_Speed;
     private bool canMove;
-    public int value;
     public static GameManager GameManager;
 
     // Start is called before the first frame update
@@ -19,8 +18,6 @@ public class Item : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         canMove = true;
-
-
     }
 
     // Update is called once per frame
@@ -40,18 +37,17 @@ public class Item : MonoBehaviour
         {
 
             Vector3 temp = transform.position;
-
-            temp.x += move_Speed * Time.deltaTime;
-
-            if (temp.x > maxX)
+            if (temp.x >= maxX)
             {
-                move_Speed *= -1f;
+                move_Speed = -1.38f;
 
             }
-            else if (temp.x < minX)
+            else if (temp.x <= minX)
             {
-                move_Speed *= -1f;
+                move_Speed = 1.38f;
             }
+            if(temp.x<maxX || temp.x>minX)
+                temp.x += move_Speed * Time.deltaTime;
 
             transform.position = temp;
         }
@@ -67,9 +63,16 @@ public class Item : MonoBehaviour
     {
         if(collision.transform.tag == transform.tag)
         {
-            Destroy(gameObject);
-            GameManager.instance.SpawnItem();
-        }
+            GameManager.instance.AddSkor(1);
+
+        } 
+        Destroy(gameObject);
+        GameManager.instance.SpawnItem();
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        GameManager.instance.itemObj=null;
     }
 
 }
