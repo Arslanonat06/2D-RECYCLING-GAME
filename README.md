@@ -1,5 +1,6 @@
 # MOBILE 2D RECYCLING GAME
 
+[Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
 
 ## Getting Started
 
