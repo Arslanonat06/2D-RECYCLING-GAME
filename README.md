@@ -1,5 +1,7 @@
 # MOBILE 2D RECYCLING GAME
 
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 [![MIT License](https://img.shields.io/badge/License-MIT-1f425f.svg)](https://github.com/Arslanonat06/2D-RECYCLING-GAME/blob/main/LICENSE) [![Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
 
 ## Getting Started
@@ -9,7 +11,7 @@ PLEASE DON'T CHANGE EDITOR VERSION!!!
 
 ## Author & License
   
-- [MIT](https://github.com/Arslanonat06/voiceAssistant/blob/main/LICENSE) © [Arslanonat06](https://github.com/Arslanonat06/)
+- [MIT](https://github.com/Arslanonat06/2D-RECYCLING-GAME/blob/main/LICENSE) © [Arslanonat06](https://github.com/Arslanonat06/)
 
 
 ## Contract
