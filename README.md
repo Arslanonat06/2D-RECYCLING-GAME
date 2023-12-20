@@ -1,6 +1,6 @@
 # MOBILE 2D RECYCLING GAME
 
-[Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
+[![MIT License](https://img.shields.io/badge/License-MIT-1f425f.svg)](https://github.com/Arslanonat06/2D-RECYCLING-GAME/blob/main/LICENSE) [![Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
 
 ## Getting Started
 
