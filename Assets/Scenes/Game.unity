@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 258871028}
   - component: {fileID: 258871027}
   m_Layer: 0
-  m_Name: Metal
+  m_Name: 'Metal '
   m_TagString: Box2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
