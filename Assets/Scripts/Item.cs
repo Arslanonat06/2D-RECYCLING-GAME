@@ -39,12 +39,12 @@ public class Item : MonoBehaviour
             Vector3 temp = transform.position;
             if (temp.x >= maxX)
             {
-                move_Speed = -1.38f;
+                move_Speed = -1.42f;
 
             }
             else if (temp.x <= minX)
             {
-                move_Speed = 1.38f;
+                move_Speed = 1.42f;
             }
             if(temp.x<maxX || temp.x>minX)
                 temp.x += move_Speed * Time.deltaTime;
