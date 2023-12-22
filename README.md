@@ -5,7 +5,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-1f425f.svg)](https://github.com/Arslanonat06/2D-RECYCLING-GAME/blob/main/LICENSE) [![Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
 
 # Game Description
-This project teaches children aged 5 and above how to help protect the environment by sorting and recycling their waste. Students or children participate by separating their waste into bins designated for paper, plastic, electronic waste, glass, metal, and organic waste. This project is a mobile game developed for Android using Unity 2D. The project is still in the development stage, and the source code is provided above.
+This project is a mobile game developed for children aged 5 and above to assist them in protecting the environment by teaching them how to sort and recycle their waste. Students or children participate in the game by sorting their waste into bins designated for paper, plastic, electronic waste, glass, metal, and organic waste. This project is a 2D Unity game developed for mobile (Android). The project is still in the development stage. If you have any questions, you can reach me via email.
 
 # How to Play
 
