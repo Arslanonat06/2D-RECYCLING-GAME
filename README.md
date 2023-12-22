@@ -5,7 +5,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-1f425f.svg)](https://github.com/Arslanonat06/2D-RECYCLING-GAME/blob/main/LICENSE) [![Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
 
 # Game Description
-a
+This project is a mobile game developed for Android using Unity 2D, aiming to teach children how to contribute to environmental protection by sorting and recycling their waste. Students or children participate by sorting waste into bins designated for paper, plastic, electronic waste, glass, metal, and organic waste.
 
 # How to Play
 
