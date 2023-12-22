@@ -9,7 +9,7 @@ This project is a mobile game developed for Android using Unity 2D, aiming to te
 
 # How to Play
 
-b
+When you start the game, waste moves randomly from side to side. When the incoming waste aligns with the correct recycling bin, you can tap the screen once, and the waste will fall into the bin. You earn 1 point for each piece of waste that correctly lands in the bin, and you do not score points for waste that falls into the wrong bin. The game has no end, so you can stop it whenever you want.
 
 ## Author & License
   
