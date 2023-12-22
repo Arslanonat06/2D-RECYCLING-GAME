@@ -5,15 +5,11 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-1f425f.svg)](https://github.com/Arslanonat06/2D-RECYCLING-GAME/blob/main/LICENSE) [![Platform](https://img.shields.io/badge/Platform-Android-1f425f.svg)]()
 
 # Game Description
-This project game teaches kids how to separate and recycle their trash to help protect the environment. Students or children decompose waste by throwing it into paper, plastic, electronic, glass, metal and organic waste bins.
-This is a Tetris style matching game developed for Mobile (Android) using Project Unity 2D. 
-
-Bu proje oyunu çocuklara çevreyi korumaya yardımcı olması için çöplerini ayrıştırmayı ve geri dönüştürmeyi öğretir. Öğrenciler yada çocuklar atıkları kağıt, plastik, elektronik, cam, metal ve organik çöp kutularına atarak ayrıştırır.
-Bu Proje Unity 2D kullanılarak Mobil (Android) için geliştirilen Tetris tarzı eşleştirme oyunudur.
+a
 
 # How to Play
 
-a
+b
 
 ## Author & License
   
